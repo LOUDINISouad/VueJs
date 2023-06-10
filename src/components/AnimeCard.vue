@@ -10,7 +10,8 @@
     <b-card-text> Number of episode : {{ anime.episodes }} </b-card-text>
     <b-card-text> Status : {{ anime.status }} </b-card-text>
 
-    <b-button href="#" variant="outline-primary">Edit</b-button>
+    <router-link to="/edit" class="btn btn-outline-primary">Edit</router-link>
+
   </b-card>
 </template>
 

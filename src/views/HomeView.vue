@@ -14,5 +14,11 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+.title {
+  font-size: 39px;
+  color: #160202;
+  text-align: center;
+  margin-top: 20px;
+}
 </style>

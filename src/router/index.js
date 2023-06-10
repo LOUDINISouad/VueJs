@@ -1,12 +1,10 @@
-
 import Vue from 'vue'
 import Router from 'vue-router'
-
-Vue.use(Router)
-
 import HomeView from "@/views/HomeView.vue";
 import AnimeView from "@/views/AnimeCreationView.vue";
+import AnimeEdit from "@/components/AnimeEdit.vue";
 
+Vue.use(Router)
 
 const routes = [
   {
@@ -18,6 +16,10 @@ const routes = [
     path: "/new-anime",
     name: "Anime",
     component: AnimeView,
+  },
+  {
+    path: '/edit',
+    component: AnimeEdit,
   },
 ];
 

@@ -62,12 +62,13 @@ export default {
         status: null,
         imgUrl: "",
       },
-      statusOptions: [
-        { text: "Select One", value: null },
-        "OnGoing",
-        "Finished",
-      ],
-      show: true,
+    statusOptions: [
+  { text: "Select One", value: null },
+  { text: "OnGoing", value: "ongoing", style: { color: "green" } },
+  { text: "Finished", value: "finished", style: { color: "yellow" } },
+],
+show: true,
+
     };
   },
   methods: {
